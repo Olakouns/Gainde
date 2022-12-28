@@ -14,5 +14,6 @@ Notre depot pour le cours de devops
 ### Pour recuperer le depot et votre branche pour la premiere fois
 
 ``$ git clone url``
+
 ``$ git fetch origin  dev-xxx``
  
