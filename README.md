@@ -11,6 +11,8 @@ Notre depot pour le cours de devops
   7. Mamadou Sow
   8. Ndeye Fatou Mbaye
 
+### Pour recuperer le depot et votre branche pour la premiere fois
 
-``Use `code` in your Markdown file.``
-  
+``$ git clone url``
+``$ git fetch origin  dev-xxx``
+ 
