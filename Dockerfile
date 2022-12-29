@@ -1,3 +1,3 @@
-FROM nginx:1.23.3
+FROM nginx:1.22.1
 LABEL Maintainer Gainde
-COPY accueil.html /usr/share/nginx/html/index.html
+COPY ./app /usr/share/nginx/html/
