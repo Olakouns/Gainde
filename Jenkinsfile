@@ -10,7 +10,7 @@ pipeline {
     }
      post {
         success {
-            slackSend message:"A new version of Gainde-image is succesful build - ${env.JOB_NAME} ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>)"
+            slackSend message:"A new version of Gainde-image is succesfully built - ${env.JOB_NAME} ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>)"
         }
     }
 }
