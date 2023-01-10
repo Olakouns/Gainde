@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build Docker Image') {
             steps { 
-                sh 'docker build -t gainde-image-jenkinsfile:1.0.${env.BUILD_NUMBER} .'
+                sh "docker build -t gainde-image-jenkinsfile:1.0.${env.BUILD_NUMBER} ."
             }
         }
     }
