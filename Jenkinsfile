@@ -5,7 +5,7 @@ ipipeline {
         stage('Build Docker Image') {
             steps { 
 <<<<<<< HEAD
-                    sh 'docker build -t gainde-image-jenkinsfile:1.0.${env.BUILD_NUMBER} .'
+                    sh "docker build -t gainde-image-jenkinsfile:1.0.${env.BUILD_NUMBER} ."
 =======
                 sh "docker build -t gainde-image-jenkinsfile:1.0.${env.BUILD_NUMBER} ."
 >>>>>>> 3d4a1eb711404a053d24f1602edd30bdfada954e
